@@ -1,6 +1,6 @@
 # NNEvents
 
-This is example of using MessagePipe. 
+This is example of using Unity MessagePipe. 
 
 https://github.com/Cysharp/MessagePipe
 
