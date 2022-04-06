@@ -26,7 +26,7 @@ public class Player : NNEvents.NNEventActor<PlayerData, EnemyData>
       playerHp -= e.AttackValue;
       isPlay = e.Dead;
       _animator.SetTrigger("GetHit");
-      playerHpText.text = $"Enemy HP:{playerHp}";
+	  playerHpText.text = $"Player HP:{playerHp}";
 
       if (playerHp <= 0)
       {
